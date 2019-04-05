@@ -1,0 +1,6 @@
+import xlrd
+d = {}
+wb = xlrd.open_workbook('/home/abhishek/code-folder/parsing-files/files/datafile.xlsx')
+# print(wb.sheets())
+sh = wb.sheet_names()
+print(sh)
